@@ -1,0 +1,851 @@
+@import url("effects.css");
+html, body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  padding-top: 100px;
+}
+
+main {
+	min-height:100%;
+	position:relative;
+}
+
+#icone {
+    width: 16px;
+    height: 16px;
+}
+
+/* IMAGEM */
+#logo {
+}
+
+.nav-header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 90px;
+  background-color: #3b9c00;
+  z-index: 3;
+}
+
+.nav-left{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  padding: 0px;
+  background-color: #f1f3ff;
+  -webkit-box-shadow: 0px 0px 15px #71716e;
+  box-shadow: 0px 0px 15px #71716e;
+  z-index: 2;
+}
+
+.nav-left__active{
+  width: 300px;
+  padding: 20px;
+}
+
+.nav-left__content{
+  padding-top: 90px;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.nav-left__title{
+  font-size: 16px;
+  color: #818283;
+}
+
+.nav-left__items{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ .nav-left__item{
+   font-size: 22px;
+   color: #5CB85C;
+ }
+
+ .nav-left__item > a, .nav-left__item > a:hover, .nav-left__item > a:link, .nav-left__item > a:visited, .nav-left__item > a:active{
+   color: #5CB85C;
+ }
+
+ .nav-left__item > a:hover{
+   opacity: .8;
+ }
+
+.nav-content{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-logo{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -35px;
+  margin-left: -35px;
+}
+
+.nav-logo > img{
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.block__onright{
+  position: absolute;
+  right: 0px;
+}
+
+.nav-btn__primary{
+  display: inline-block;
+  margin: 10px;
+  padding: 1px 5px;
+  padding-left: 1px;
+  padding-right: 10px;
+  background-color: #f0f9f7;
+  border-radius: 30px;
+  color: #676363;
+  cursor: pointer;
+}
+
+.nav-btn__middle{
+  position: absolute;
+  top: 50%;
+  margin-top: -22.5px;
+}
+
+.nav-btn__txt{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-btn__inative {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 1px;
+  -webkit-transform: scale(1.2,1.2);
+  -ms-transform: scale(1.2,1.2);
+  -o-transform: scale(1.2,1.2);
+  transform: scale(1.2,1.2);
+}
+
+
+.nav-btn__icon {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+  background-color: #3b9c00;
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+  line-height: 27px;
+  opacity: .8;
+}
+
+.nav-btn__inative > .nav-btn__txt{
+  display: none;
+}
+
+.nav-btn__inative > .nav-btn__icon{
+  background-color: #FFF;
+  color: #3b9c00;
+  font-size: 16px;
+}
+
+#menu-a {
+    padding-top: 16px;
+    font-size: 20pt;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#menu-a:hover {
+    color: silver;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+.content__hidden{
+  overflow: hidden;
+}
+
+#menu-1 {
+    margin-top: 2px;
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+}
+
+#openmodal {
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+}
+
+#openmodal a {
+    color: white;
+}
+
+#openmodal a:hover {
+    color: silver;
+}
+
+/* LISTAS */
+#lista-2 {
+    margin-left: 100%;
+    margin-top: -87%;
+}
+
+/* LADO DIREITO */
+
+.col-sm-2.sidenav {
+    background-color: white;
+}
+
+#top10 {
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #2C7500;
+    min-height: 240px;
+}
+
+#top10-inside {
+    background-color: #3b9c00;
+    width: 100%;
+    font-size: 14pt;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+#top10-inside2 {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+#top10-inside2 ul {
+  float: left;
+	width: 50%;
+	margin-left: 0%;
+}
+
+#top10-inside2 ul li {
+  list-style: none;
+	margin-left: -30%;
+}
+
+#mitada {
+	  margin-top: 40%;
+    width: auto;
+    border: 1px solid #2C7500;
+    height: auto;
+}
+
+#mitada-inside {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 16pt;
+    background-color: #3b9c00;
+    width: 100%;
+}
+
+#mitada ul li {
+	margin-top: 10%;
+	font-size: 25pt;
+  list-style: none;
+	margin-left: -15%;
+}
+
+#mitada ul li.tickets {
+	font-size: 16pt;
+  list-style: none;
+	margin-left: -15%;
+}
+
+/* CONFRONTOS */
+.lista-de-jogos-conteudo {
+	height: 300px;
+	display: block;
+}
+
+.placar-jogo {
+    height: 100px;
+    padding-top: 24px;
+    text-align: center;
+}
+
+.placar-jogo-informacoes {
+    font-size: 11px;
+}
+.placar-jogo-informacoes {
+    list-style: none;
+    color: #666;
+    font-family: proximanova-bold;
+    font-size: 10px;
+    letter-spacing: -.3px;
+    text-transform: uppercase;
+}
+
+.lista-de-jogos-item {
+    list-style: none;
+}
+
+input.placar-input {
+    border: 0;
+    display: inline-block;
+    width: 28px;
+    box-shadow: inset 0 0 3px #ccc;
+    border: 1px solid #CCC;
+    vertical-align: middle;
+    text-align: center;
+    max: 2;
+}
+
+#botao-de-apostas1 {
+    margin-left: 10%;
+}
+#botao-de-apostas2 {
+    margin-left: 15%;
+}
+
+/* JANELA MODAL - LOGIN */
+#window {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#window #loginmodal {
+    border: 2px solid #2C7500;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+    height: 270px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -135px;
+}
+
+.bt-closemodal {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    margin-left: 0px;
+    cursor: pointer;
+    background-color: #3b9c00;
+    font-size: 20px;
+    color: #FFF;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+    border: 2px solid #FFF;
+    -webkit-box-shadow: 0px 0px 15px #373939;
+    box-shadow: 0px 0px 15px #373939;
+}
+
+a.bt-closemodal:hover {
+    text-decoration: none;
+    color: #FFF;
+}
+
+fieldset.field-modal {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#form-email {
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+#form-password {
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+#form-bt {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#form-bt-senha {
+    margin-left: 3px;
+}
+
+/* JANELA MODAL - CADASTRO */
+#window-cadastro {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#window-cadastro #cadastromodal {
+    border: 2px solid #2C7500;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+    height: 310px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -155px;
+}
+
+#form-email-cadastro {
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+#form-password-cadastro {
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+
+/* FOOTER */
+/* Set black background color, white text and some padding */
+#footer {
+    width: 100%;
+    background-color: #3b9c00;
+    color: white;
+    padding: 15px;
+    border: 2px solid #2C7500;
+    position: absolute;
+    bottom: 0;
+	display: none;
+}
+
+#footer div{
+    margin-left: 550px;
+}
+
+ul#lista-footer {
+    list-style: none;
+
+}
+
+#lista-footer li {
+    float: left;
+    padding: 15px;
+}
+
+#lista-footer a {
+    font-size: 10pt;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#img-footer {
+    width: 50px;
+    height: 50px;
+}
+
+/* Times */
+#times-confrontos {
+  min-height: 700px;
+  overflow: hidden;
+  margin: 0 50px;
+}
+
+#times-confrontos li{
+ font-size: 14pt;
+}
+
+#times-confrontos p {
+  font-size: 14pt;
+}
+
+#contatos-confrontos div {
+	float: left;
+	padding: 0 300px 150px 0;
+}
+
+#contatos-confrontos h1{
+    text-align: center;
+    color: #3b9c00;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 1px 1px green;
+}
+
+#times-confrontos ul{
+    float: left;
+}
+
+#times-confrontos h1{
+    text-align: center;
+    color: #3b9c00;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 1px 1px green;
+}
+
+.tc-txt {
+  color: #504e4e;
+  text-align: justify;
+}
+
+
+.apostar {
+	margin: 0;
+}
+
+.clear {
+	clear:both;
+}
+
+#times-casa li {
+    list-style: none;
+    font-size: 16pt;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+#times-fora li {
+    list-style: none;
+    font-size: 16pt;
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.times-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.palpite {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 45px;
+    height: 30px;
+}
+
+.block__center{
+  border: 1px solid blue;
+}
+
+.display__none{
+	display: none;
+}
+
+/* PALAVRAS */
+.tPlacar
+{
+	color: #F69001;
+}
+
+.tReal
+{
+	color: #B203F4;
+}
+
+.pNegrito
+{
+	font-weight: bold;
+  margin-left: 30px;
+}
+
+/* RANKING */
+
+.tickPlacar
+{
+	text-align: center;
+	width: 300px;
+  height: 500px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.tickReal
+{
+	text-align: center;
+	width: 300px;
+    height: 500px;
+	display: block;
+
+	float: left;
+
+}
+
+.iRank
+{
+	font-size: 16pt;
+	margin-bottom: 10px;
+}
+
+.trr
+{
+	font-size: 16pt;
+	color: #32CD32;
+
+}
+
+.tpr
+{
+	font-size: 16pt;
+	color: #F69001;
+}
+
+/* CONTATO */
+
+.telef
+{
+	margin-bottom: 10px;
+}
+
+.iTelef
+{
+	margin-bottom: 10px;
+}
+
+.Nda
+{
+	font-size: 1pt;
+	box-shadow: 0px 1px 1px green;
+	width: 300px;
+}
+
+.Cont
+{
+	font-size: 16pt;
+	margin-top: 20px;
+}
+
+.imgFachada
+{
+	height: 200px;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.formContact
+{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.telEnd
+{
+	width: 600px;
+	height: 100%;
+}
+
+.mensag
+{
+	width: 600px;
+	height: 100%;
+}
+
+textarea {
+    width: 250px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+	display: block;
+	padding: 10px;
+    color: black;
+    margin-left: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+
+/*
+	* Author: Natan Oliveira <natan.ads.uninove@gmail.com>
+*/
+figure.user-foto{
+	max-width: 300px;
+	padding-top: 40px;
+}
+
+figure.user-foto .user-title{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 26px;
+	font-weight: bold;
+	color: green;
+	text-align: center;
+}
+
+figure.user-foto > img{
+	width: 100%;
+	height: 100%;
+}
+
+.block{
+	display: block;
+	width: 100%;
+}
+
+.content__relative{
+	position: relative;
+}
+
+.block__center{
+	margin: 0 auto;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.user-perfil{
+	width: 300px;
+}
+
+.block__margin_top-lg{
+	margin-top: 20px;
+}
+
+.block__margin_bottom-lg{
+	margin-bottom: 20px;
+}
+
+.block__margin_top-sm{
+	margin-top: 10px;
+}
+
+.block__margin_bottom-sm{
+	margin-bottom: 10px;
+}
+
+.list-primary .list-title{
+	font-size: 22px;
+	color: green;
+	text-shadow: 0px 0px 15px #CCC;
+}
+
+.text-theme{
+	color: green;
+}
+
+.title-primary{
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+}
+
+.title-default{
+	font-size: 18px;
+	color: green;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+}
+
+.ruaEnd
+{
+display: inline-block;
+}
+
+
+  #form-email, #form-password, #form-email-cadastro, #form-password-cadastro{
+	margin: 0;
+  }
+
+	fieldset.field-modal {
+		padding: 0px;
+		margin: 20px;
+	}
+/*Yuri*/
+.positi
+{
+	text-align: center;
+}
+
+  table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: arial;
+  }
+
+  .table {
+    border-bottom: #999999 solid 1px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .table th,
+  .table td {
+    border-right: #999999 solid 1px;
+    font-size: 12px;
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  .table td:last-child {
+     border-right: 0;
+  }
+
+  .table thead th {
+    font-weight: normal;
+    background-color: #32CD55;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .table tbody > tr:nth-child(odd) > td,
+  .table tbody > tr:nth-child(odd) > th {
+    background-color: #f8f8f8;
+  }

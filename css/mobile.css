@@ -1,0 +1,136 @@
+@media (min-width: 487px) and (max-width: 766px){
+		#mitada {
+			margin-top: 30px;
+		}
+
+		#form-confrontos {
+		    margin: 0 auto;
+				width: 280px;
+		  }
+
+		  #form-confrontos  .placar-jogo {
+			width: 280px;
+		  }
+
+		.placar-jogo-equipes-nome{
+			font-size: 11px;
+			display: block;
+		}
+
+		.tabela-icone-versus{
+			font-size: 12px;
+			font-weight: bold;
+		}
+
+}
+
+@media (min-width: 768px) and (max-width: 1212px){
+	
+	#mitada ul li {
+		font-size: 9pt;
+	}
+
+	#mitada ul li.tickets {
+		font-size: 11pt;
+	}
+}
+
+@media (max-width: 486px) {
+	main {
+		padding-bottom: 420px;
+}
+	#form-confrontos {
+		margin: 0 auto;
+		width: 280px;
+}
+
+	#form-confrontos  .placar-jogo {
+		width: 280px;
+}
+
+	.placar-jogo-equipes-nome{
+		font-size: 11px;
+		display: block;
+}
+
+	.tabela-icone-versus{
+		font-size: 12px;
+		font-weight: bold;
+}
+
+.sidenav{
+margin-top: 20px;
+}
+
+
+#times-confrontos {
+  margin: 10px;
+}
+
+#lista-de-jogos-conteudo, .lista-de-jogos-conteudo {
+  margin-left: 0px;
+  padding: 0px;
+  clear: both;
+}
+
+#footer {
+    position: relative;
+    display: none;
+}
+
+#mitada {
+	  margin: 40px 0;
+}
+
+#mitada ul li {
+	margin-top: 20px;
+	font-size: 25pt;
+  list-style: none;
+	margin-left: -15%;
+}
+
+#mitada ul li.tickets {
+	font-size: 16pt;
+  list-style: none;
+	margin-left: -15%;
+}
+
+#form-bt {
+	margin: 0;
+}
+
+
+#window #loginmodal {
+	width: 90%;
+	left: 5%;
+	margin-left: 0;
+}
+
+#window-cadastro #cadastromodal {
+	width: 90%;
+	left: 5%;
+	margin-left: 0;
+}
+.division{
+	display: block;
+	content: 'teste';
+}
+
+.telEnd
+{
+	height: 420px;
+}
+
+
+#contatos-confrontos{
+  min-height: 700px;
+  overflow: hidden;
+  margin: 0 50px;
+}
+
+#contatos-confrontos div {
+	float: left;
+	padding: 0 300px 150px 0;
+}
+
+}

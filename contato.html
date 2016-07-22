@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Placar Final</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" id="icone" href="imagens/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<main>
+  <nav class="nav-header">
+    <div class="nav-content">
+      <div class="nav-btn__middle nav-btn__primary easeIn-Out bg-color" id="btnMenu">
+        <p class="nav-btn__icon">
+          <i class="glyphicon glyphicon-th-list"></i>
+        </p>
+        <span class="nav-btn__txt">MENU</span>
+      </div>
+      <a href="index.html">
+	  <figure class="nav-logo easeIn-Out">
+        <img src="imagens/logo.png" class="zoom" alt="Placar Final" title="Placar Final">
+      </figure>
+	  </a>
+
+      <div class="block__onright nav-btn__middle nav-btn__primary easeIn-Out bg-color"  id="openmodal">
+        <p class="nav-btn__icon">
+          <i class="glyphicon glyphicon-user"></i>
+        </p>
+        <span class="nav-btn__txt">ENTRAR</span>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="nav-left easeIn-Out" id="navLeft">
+    <div class="nav-content nav-left__content">
+      <p class="nav-left__title">
+        Opções
+      </p>
+      <ul class="nav-left__items">
+        <li class="nav-left__item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="nav-left__item">
+          <a href="ranking.html">Ranking</a>
+        </li>
+        <li class="nav-left__item">
+          <a href="regras.html">Regras</a>
+        </li>
+        <li class="nav-left__item">
+          <a href="como-funciona.html">Como funciona?</a>
+        </li>
+        <li class="nav-left__item">
+          <a href="contato.html">Contato</a>
+        </li>
+        <li class="nav-left__item">
+          <a href="quem-somos.html">Quem somos nós?</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-12 text-left">
+            <section id="contatos-confrontos">
+                <h1>Entre em Contato</h1>
+                <!-- <p class="tc-txt">Entre em contato com nosso suporte em caso de dúvidas!</p> -->
+				<div class="telEnd">
+					<h2 class="Cont">Telefone</h2>
+					<p><span class="iTelef">0800-327-221 - Dúvidas Gerais</span></p>
+					<p><span class="iTelef">0800-327-822 - Suporte Técnico</span></p>
+					<p><span class="iTelef">0800-327-823 - Financeiro</span></p>
+					<h1 class="Nda">.</h1>
+					<h2 class="Cont">Endereço</h2>
+					<div class="google-maps">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.234420896085!2d-46.660244585022156!3d-23.560022784683465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.+Paulista+-+Bela+Vista%2C+S%C3%A3o+Paulo+-+SP%2C+01310-200!5e0!3m2!1spt-BR!2sbr!4v1462835477418" width="600" height="450" frameborder="0" style="border:0"></iframe>
+					</div>
+					<p class="ruaEnd">Avenida Paulista - Bela Vista, 1.105</p>
+					<p class="ruaEnd"> - São Paulo - SP</p>
+					<p class="ruaEnd">CEP: 01310-200</p>
+				</div>
+				<div class="mensag">
+					<h2 class="Cont">Envie-nos uma mensagem</h2>
+					<p><span class="iTelef">Se preferir, envie um e-mail!</span></p>
+					<form>
+					<p>
+						<label class="formContact">Nome</label>
+						<input type="text" placeholder="Digite seu nome." maxlength= 100 required="required"/>
+					</p>
+					<p>
+						<label class="formContact">Telefone</label>
+						<input type="text" placeholder="(DDD) 0000-0000" required="required"/>
+					</p>
+					<p>
+						<label class="formContact">E-mail</label>
+						<input type="text" placeholder="exemplo@exemplo.com" required="required"/>
+					</p>
+					<p>
+						<label>Mensagem</label>
+						<textarea placeholder="Digite sua mensagem aqui." required="required"> </textarea>
+					</p>
+						<input type="submit" class="btn btn-success" id="botao-de-apostas1" value="Enviar">
+						<input type="reset" class="btn btn-default" id="botao-de-apostas2" value="Limpar">
+					</form>
+				</div>
+            </section>
+        </div>
+
+    </div>
+</div>
+
+</main>
+<footer class="container-fluid text-center" id="footer">
+    <div>
+        <ul id="lista-footer">
+            <li><a href="#">Desenvolvedores</a></li>
+            <li><a href="#">Termos</a></li>
+            <li>&copy Copyright 2016</li>
+            <li><a href="#">Politica e Segurança</a></li>
+            <li><a href="#">Enviar Feedback</a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- JANELA MODAL - LOGIN -->
+<div id="window">
+    <div id="loginmodal">
+        <form method="post" action="perfil.html">
+            <fieldset class="field-modal">
+				<div class="row">
+					<div class="form-group col-md-12">
+						<label for="inputEmail" class="control-label">E-mail</label>
+						 <input class="form-control" id="inputEmail" placeholder="E-mail" type="email" required>
+					</div>
+					<div class="form-group col-md-12">
+						<label for="inputPassword" class="col-md-4 control-label">Senha</label>
+						<input class="form-control" id="inputPassword" placeholder="Senha" type="password" required>
+					</div>
+					<div class="col-md-12 form-group">
+						<div class="pull-right">
+							<a href="#" class="btn btn-default btn-xs" id="form-bt-senha">Esqueci minha senha</a>
+						</div>
+					</div>
+					<div class="col-md-12" id="form-bt">
+						<input type="submit" name="" class="btn btn-success" id="form-bt-submit" value="Entrar">
+						<a href="#" class="btn btn-success" id="cadastro">Cadastro</a>
+					</div>
+				</div>
+            </fieldset>
+            <a class="bt-closemodal">
+              x
+              <!--<img class="bt-closemodal" src="imagens/bt-close.png">-->
+            </a>
+        </form>
+    </div>
+</div>
+
+<!-- JANELA MODAL - CADASTRO -->
+<div id="window-cadastro">
+    <div id="cadastromodal">
+        <form method="post">
+            <fieldset class="field-modal">
+                <div class="form-group is-empty" id="form-email-cadastro">
+                    <label for="inputEmail" class="col-md-4 control-label">Nome</label>
+                    <div class="col-md-10">
+                        <input class="form-control" id="inputName" placeholder="Nome" type="text" required>
+                    </div>
+                </div>
+                <div class="form-group is-empty" id="form-email-cadastro">
+                    <label for="inputEmail" class="col-md-4 control-label">E-mail</label>
+                    <div class="col-md-10">
+                        <input class="form-control" id="inputEmail" placeholder="E-mail" type="email" required>
+                    </div>
+                </div>
+                <div class="form-group is-empty" id="form-password-cadastro">
+                    <label for="inputPassword" class="col-md-4 control-label">Senha</label>
+                    <div class="col-md-10">
+                        <input class="form-control" id="inputPassword-cadastro" placeholder="Senha" type="password" required>
+                    </div>
+                    <span class="material-input"></span>
+                </div>
+                <div class="col-md-10 col-md-offset-2" id="form-bt">
+                    <button type="submit" class="btn btn-success" id="form-bt-submit-cadastro">Cadastrar</button>
+                    <button type="reset" class="btn btn-default btn-sm" id="form-bt-senha">Limpar</button>
+                </div>
+            </fieldset>
+            <a class="bt-closemodal">
+			x
+              <!--<img class="bt-closemodal" src="imagens/bt-close.png">-->
+            </a>
+        </form>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/jquery-1.12.1.min.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/main.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>

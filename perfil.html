@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>Placar Final</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" id="icone" href="imagens/logo.png">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<main>
+  <nav class="nav-header">
+    <div class="nav-content">
+      <div class="nav-btn__middle nav-btn__primary easeIn-Out bg-color" id="btnMenu">
+        <p class="nav-btn__icon">
+          <i class="glyphicon glyphicon-th-list"></i>
+        </p>
+        <span class="nav-btn__txt">MENU</span>
+      </div>
+      <a href="index.html">
+	  <figure class="nav-logo easeIn-Out">
+        <img src="imagens/logo.png" class="zoom" alt="Placar Final" title="Placar Final">
+      </figure>
+	  </a>
+
+		<a href="index.html">
+		  <div class="block__onright nav-btn__middle nav-btn__primary easeIn-Out bg-color">
+			<p class="nav-btn__icon">
+			  <i class="glyphicon glyphicon-user"></i>
+			</p>
+			<span class="nav-btn__txt">SAIR</span>
+		  </div>
+		</a>
+    </div>
+  </nav>
+
+  <nav class="nav-left easeIn-Out" id="navLeft">
+    <div class="nav-content nav-left__content">
+      <p class="nav-left__title">
+        Opções
+      </p>
+      <ul class="nav-left__items">
+        <li class="nav-left__item">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="nav-left__item">
+          <a href="ranking.html">Ranking</a>
+        </li>
+        <li class="nav-left__item">
+          <a href="regras.html">Regras</a>
+        </li>
+        <li class="nav-left__item">
+          <a href="como-funciona.html">Como funciona?</a>
+        </li>
+        <li class="nav-left__item">
+          <a href="contato.html">Contato</a>
+        </li>
+        <li class="nav-left__item">
+          <a href="quem-somos.html">Quem somos nós?</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<div class="container-fluid text-center">
+    <div class="row content">
+        <div class="col-sm-10 text-left">
+			<div class="row">
+				<section class="col-md-3">
+					<div class="user-perfil">
+						<figure class="user-foto content__relative">
+							<img src="http://static.wixstatic.com/media/29c778_789d9a91ca6d4b2bb92327fb3ac76ec9.png/v1/fill/w_500,h_500,al_c/29c778_789d9a91ca6d4b2bb92327fb3ac76ec9.png">
+							<figcaption class="block user-title">
+								Natan Oliveira
+							</figcaption>
+						</figure>
+						<div class="block">
+						<p class="text-center">
+							<a href="#" class="btn btn-success">
+								Editar Perfil
+							</a>
+						</p>
+						</div>
+					</div>
+					<dl class="list-primary">
+						<dt class="list-title block__margin_top-lg block__margin_bottom-lg">
+							Suas Ligas
+						</dt>
+						<dd class="list-item">
+							<span class="title-default">Liga Nacional:</span> 2º colocado
+						</dd>
+						<dd class="list-item">
+							<span class="title-default">Campeonato Paulista:</span> 2º colocado
+						</dd>
+						<dd class="list-item">
+							<span class="title-default">Liga da Rapaziada:</span> 1º colocado
+						</dd>
+					</dl>
+				</section>
+				<div class="display__none division">					
+					<hr>
+				</div>
+				<section class="col-md-6">
+					<form id="form-confrontos" method="post">
+					<form id="form-confrontos" method="post">
+					<div>
+                    <ul class="lista-de-jogos-conteudo">
+
+					<h1 class="title-primary text-center">Apostas: <span class="text-theme">Disponíveis</span></h1>
+                        <li class="lista-de-jogos-item">
+                            <div class="placar-jogo">
+                                <div class="placar-jogo-informacoes">
+                                    Sab 12/03/2016
+                                    <span class="placar-jogo-informacoes-local">Morumbi (SP)</span>
+                                    16:00
+                                </div>
+                                <div class="placar-jogo-equipes">
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-mandante">
+                                        <span class="placar-jogo-equipes-nome">XV Piracicaba</span>
+                                        <img class="placar-jogo-equipes-escudo-mandante" itemprop="image" src="http://s.glbimg.com/es/sde/f/organizacoes/2014/12/03/Escudo-XV-Piracicaba65.png" width="30" height="30" title="XV de Piracicaba">
+                                    </span>
+                                    <class="placar-jogo-equipes-item placar-jogo-equipes-placar">
+                                        <input type="tel" class="placar-input" maxlength="2">
+                                        <span class="tabela-icone tabela-icone-versus">X</span>
+                                        <input type="tel" class="placar-input" maxlength="2">
+                                    </span>
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-visitante">
+                                        <img class="placar-jogo-equipes-escudo-visitante" itemprop="image" src="http://s.glbimg.com/es/sde/f/organizacoes/2016/03/31/Ferroviaria-65.png" width="30" height="30" title="Ferroviária">
+                                        <span class="placar-jogo-equipes-nome">Ferroviária</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="lista-de-jogos-item">
+                            <div class="placar-jogo">
+                                <div class="placar-jogo-informacoes">
+                                    Sab 12/03/2016
+                                    <span class="placar-jogo-informacoes-local">Arena Corinthians (SP)</span>
+                                    16:00
+                                </div>
+                                <div class="placar-jogo-equipes">
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-mandante">
+                                        <span class="placar-jogo-equipes-nome">Oeste</span>
+                                        <img class="placar-jogo-equipes-escudo-mandante" itemprop="image" src="http://s.glbimg.com/es/sde/f/equipes/2013/09/16/oeste_60x60.png" width="30" height="30" title="Oeste">
+                                    </span>
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-placar">
+                                        <input type="tel" class="placar-input" maxlength="2">
+                                        <span class="tabela-icone tabela-icone-versus">X</span>
+                                        <input type="tel" class="placar-input" maxlength="2">
+                                    </span>
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-visitante">
+                                        <img class="placar-jogo-equipes-escudo-visitante" itemprop="image" src="http://s.glbimg.com/es/sde/f/equipes/2016/01/30/SaoBernardo-65.png" width="30" height="30" title="São Bernardo">
+                                        <span class="placar-jogo-equipes-nome">São Bernado</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="lista-de-jogos-item">
+                            <div class="placar-jogo">
+                                <div class="placar-jogo-informacoes">
+                                    Sab 12/03/2016
+                                    <span class="placar-jogo-informacoes-local">Alianz Parque (SP)</span>
+                                    11:00
+                                </div>
+                                <div class="placar-jogo-equipes">
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-mandante">
+                                        <span class="placar-jogo-equipes-nome">Mogi Mirim</span>
+                                        <img class="placar-jogo-equipes-escudo-mandante" itemprop="image" src="http://s.glbimg.com/es/sde/f/equipes/2016/02/25/mogi65.png" width="30" height="30" title="Mogi Mirim">
+                                    </span>
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-placar">
+                                        <input type="tel" class="placar-input" maxlength="2">
+                                        <span class="tabela-icone tabela-icone-versus">X</span>
+                                        <input type="tel" class="placar-input" maxlength="2">
+                                    </span>
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-visitante">
+                                        <img class="placar-jogo-equipes-escudo-visitante" itemprop="image" src="http://s.glbimg.com/es/sde/f/equipes/2016/03/20/rio-claro-fc65.png" width="30" height="30" title="Rio Claro">
+                                        <span class="placar-jogo-equipes-nome">Rio Claro</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                      </ul>
+					  </div>
+					  <div>
+					  <ul class="lista-de-jogos-conteudo">
+                        <li class="lista-de-jogos-item">
+                            <div class="placar-jogo">
+                                <div class="placar-jogo-informacoes">
+                                    Sab 12/03/2016
+                                    <span class="placar-jogo-informacoes-local">Morumbi (SP)</span>
+                                    16:00
+                                </div>
+                                <div class="placar-jogo-equipes">
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-mandante">
+                                        <span class="placar-jogo-equipes-nome">São Paulo</span>
+                                        <img class="placar-jogo-equipes-escudo-mandante" itemprop="image" src="http://s.glbimg.com/es/sde/f/equipes/2014/04/14/sao_paulo_60x60.png" width="30" height="30" title="São Paulo">
+                                    </span>
+                                    <class="placar-jogo-equipes-item placar-jogo-equipes-placar">
+                                        <input type="tel" class="placar-input" maxlength="2">
+                                        <span class="tabela-icone tabela-icone-versus">X</span>
+                                        <input type="tel" class="placar-input" maxlength="2">
+                                    </span>
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-visitante">
+                                        <img class="placar-jogo-equipes-escudo-mandante" itemprop="image" src="http://s.glbimg.com/es/sde/f/equipes/2014/10/03/ituano65.png" width="30" height="30" title="Ituano">
+                                        <span class="placar-jogo-equipes-nome">Ituano</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="lista-de-jogos-item">
+                            <div class="placar-jogo">
+                                <div class="placar-jogo-informacoes">
+                                    Sab 12/03/2016
+                                    <span class="placar-jogo-informacoes-local">Arena Corinthians (SP)</span>
+                                    16:00
+                                </div>
+                                <div class="placar-jogo-equipes">
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-mandante">
+                                        <span class="placar-jogo-equipes-nome">Corinthians</span>
+                                        <img class="placar-jogo-equipes-escudo-mandante" itemprop="image" src="http://s.glbimg.com/es/sde/f/equipes/2014/04/14/corinthians_60x60.png" width="30" height="30" title="Linense">
+                                    </span>
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-placar">
+                                        <input type="tel" class="placar-input" maxlength="2">
+                                        <span class="tabela-icone tabela-icone-versus">X</span>
+                                        <input type="tel" class="placar-input" maxlength="2">
+                                    </span>
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-visitante">
+                                        <img class="placar-jogo-equipes-escudo-visitante" src="http://s.glbimg.com/es/sde/f/organizacoes/2015/01/30/RB-Brasil-65.png" width="30" height="30" title="RB Brasil">
+                                        <span class="placar-jogo-equipes-nome">RB Brasil</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="lista-de-jogos-item">
+                            <div class="placar-jogo">
+                                <div class="placar-jogo-informacoes">
+                                    Sab 12/03/2016
+                                    <span class="placar-jogo-informacoes-local">Alianz Parque (SP)</span>
+                                    11:00
+                                </div>
+                                <div class="placar-jogo-equipes">
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-mandante">
+                                        <span class="placar-jogo-equipes-nome">Palmeiras</span>
+                                        <img class="placar-jogo-equipes-escudo-mandante" itemprop="image" src="http://s.glbimg.com/es/sde/f/equipes/2014/04/14/palmeiras_60x60.png" width="30" height="30" title="Linense">
+                                    </span>
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-placar">
+                                        <input type="tel" class="placar-input" maxlength="2">
+                                        <span class="tabela-icone tabela-icone-versus">X</span>
+                                        <input type="tel" class="placar-input" maxlength="2">
+                                    </span>
+                                    <span class="placar-jogo-equipes-item placar-jogo-equipes-visitante">
+                                        <img class="placar-jogo-equipes-escudo-visitante" src="http://s.glbimg.com/es/sde/f/equipes/2014/04/14/santos_60x60.png" width="30" height="30" title="Santos">
+                                        <span class="placar-jogo-equipes-nome">Santos</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                      </ul>
+                  </div>
+
+				  <div class="clear">
+				  </div>
+				  <div class="apostar">
+						<input type="submit" class="btn btn-success" id="botao-de-apostas1" value="Apostar">
+						<input type="reset" class="btn btn-default" id="botao-de-apostas2" value="Limpar Apostas">
+				 </div>
+					</form>
+				</section>
+			</div>
+        </div>
+        <div class="col-sm-2 sidenav">
+            <div>
+                <div id="top10-inside">
+                    <p>
+						Tickets
+					</p>
+					<div>
+						$ 100,00
+					</div>
+                </div>
+            </div>
+		  <div class="clear block__margin_top-sm">
+		  <hr>
+		  </div>
+        </div>
+    </div>
+</div>
+
+</main>
+<footer class="container-fluid text-center" id="footer">
+    <div>
+        <ul id="lista-footer">
+            <li><a href="#">Desenvolvedores</a></li>
+            <li><a href="#">Termos</a></li>
+            <li>&copy Copyright 2016</li>
+            <li><a href="#">Politica e Segurança</a></li>
+            <li><a href="#">Enviar Feedback</a></li>
+        </ul>
+    </div>
+</footer>
+<!-- JANELA MODAL - LOGIN -->
+<div id="window">
+    <div id="loginmodal">
+        <form method="post">
+            <fieldset class="field-modal">
+                <div class="form-group is-empty" id="form-email">
+                    <label for="inputEmail" class="col-md-4 control-label">E-mail</label>
+                    <div class="col-md-10">
+                        <input class="form-control" id="inputEmail" placeholder="E-mail" type="email" required>
+                    </div>
+                </div>
+                <div class="form-group is-empty" id="form-password">
+                    <label for="inputPassword" class="col-md-4 control-label">Senha</label>
+                    <div class="col-md-10">
+                        <input class="form-control" id="inputPassword" placeholder="Senha" type="password" required>
+                    </div>
+                    <span class="material-input"></span>
+                    <div class="col-md-10 pull-right" style="margin: 5px;">
+                      <a href="#" class="btn btn-default btn-xs" id="form-bt-senha">Esqueci minha senha</a>
+                    </div>
+                </div>
+                <div class="col-md-10 col-md-offset-2" id="form-bt">
+                    <a href="perfil.html" class="btn btn-success" id="form-bt-submit">Entrar</a>
+                    <a href="#" class="btn btn-success" id="cadastro">Inscreva-se</a>
+                </div>
+            </fieldset>
+            <a class="bt-closemodal">
+              x
+              <!--<img class="bt-closemodal" src="imagens/bt-close.png">-->
+            </a>
+        </form>
+    </div>
+</div>
+
+<!-- JANELA MODAL - CADASTRO -->
+<div id="window-cadastro">
+    <div id="cadastromodal">
+        <form method="post">
+            <fieldset class="field-modal">
+                <div class="form-group is-empty" id="form-email-cadastro">
+                    <label for="inputEmail" class="col-md-4 control-label">Nome</label>
+                    <div class="col-md-10">
+                        <input class="form-control" id="inputName" placeholder="Nome" type="text" required>
+                    </div>
+                </div>
+                <div class="form-group is-empty" id="form-email-cadastro">
+                    <label for="inputEmail" class="col-md-4 control-label">E-mail</label>
+                    <div class="col-md-10">
+                        <input class="form-control" id="inputEmail" placeholder="E-mail" type="email" required>
+                    </div>
+                </div>
+                <div class="form-group is-empty" id="form-password-cadastro">
+                    <label for="inputPassword" class="col-md-4 control-label">Senha</label>
+                    <div class="col-md-10">
+                        <input class="form-control" id="inputPassword-cadastro" placeholder="Senha" type="password" required>
+                    </div>
+                    <span class="material-input"></span>
+                </div>
+                <div class="col-md-10 col-md-offset-2" id="form-bt">
+                    <button type="submit" class="btn btn-success" id="form-bt-submit-cadastro">Cadastrar</button>
+                    <button type="reset" class="btn btn-default btn-sm" id="form-bt-senha">Limpar</button>
+                </div>
+            </fieldset>
+            <a class="bt-closemodal">
+              <!--<img class="bt-closemodal" src="imagens/bt-close.png">-->
+            </a>
+        </form>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/jquery-1.12.1.min.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/main.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
